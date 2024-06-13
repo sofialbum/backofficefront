@@ -1,9 +1,16 @@
 const DefaultComponent = () => {
   return (
-    <div>
-      <h1>Fuera de servicio</h1>
-      <p>Este componente no está disponible en este momento.</p>
-    </div>
+    <header id='header'>
+      <div className="maintenance">
+        <div className="overlay">
+          <div className="container">
+            <div className="col-md-8 offset-md-2 intro-text">
+    
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
   );
 };
 

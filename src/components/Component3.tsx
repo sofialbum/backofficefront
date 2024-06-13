@@ -5,9 +5,15 @@ interface Props {
 
 const Component3 = ({title, description}: Props) => {
   return (
-    <div>
-      <h1>{title}</h1>
-      <p>{description}</p>
+    <div id="component3" className="text-center">
+      <div className="container">
+        <div className="section-title">
+        <h2>{title}</h2>
+        <p>{description}</p>
+        </div>
+      </div>
+      
+      
     </div>
   )
 }

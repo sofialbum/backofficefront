@@ -5,7 +5,13 @@ interface Props {
 const Body = ({ children }: Props) => {
   return (
     <>
-      <h1>Body</h1>
+      <div id="body" className="text-center">
+        <div className="container">
+          <div className="col-md-10 offset-md-1 section-title">
+            <h2>Body</h2>
+          </div>
+        </div>
+      </div>
       {children}
     </>
   );

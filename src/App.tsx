@@ -1,5 +1,9 @@
 import './App.css';
 import Widget from './modules/Widget';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import './css/custom-bootstrap.scss';
+
+
 
 function App() {
   return (
@@ -11,10 +15,6 @@ function App() {
    <Widget id={"05"} />
    <Widget id={"06"} />
    <Widget id={"07"} />
-    
-   
-
-      
     </>
   );
 }
