@@ -333,7 +333,7 @@ header .intro-text {
 #component2 i.fa {
   font-size: 42px;
   width: 120px !important;
-  height: 120px !important;
+  height: 50px !important;
   padding: 40px 0;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   border-radius: 50%;
@@ -412,31 +412,31 @@ header .intro-text {
   font-size: 32px;
   margin-bottom: 20px;
 }
-.testimonial {
+.comp4 {
   position: relative;
   padding: 20px;
 }
-.testimonial-image {
+.comp4-image {
   float: left;
   margin-right: 15px;
 }
-.testimonial-image,
-.testimonial-image img {
+.comp4-image,
+.comp4-image img {
   display: block;
   width: 64px;
   height: 64px;
   border-radius: 50%;
 }
-.testimonial-content {
+.comp4-content {
   position: relative;
   overflow: hidden;
 }
-.testimonial-content p {
+.comp4-content p {
   margin-bottom: 0;
   font-size: 14px;
   font-style: italic;
 }
-.testimonial-meta {
+.comp4-meta {
   margin-top: 10px;
   font-size: 15px;
   font-weight: 600;
