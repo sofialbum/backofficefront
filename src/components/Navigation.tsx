@@ -1,6 +1,6 @@
 const Navigation = () => {
   return (
-    <nav id="menu" className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav id="menu" className="navbar navbar-default navbar-expand-lg navbar-light bg-light fixed-top">
       <div className="container">
         <a className="navbar-brand page-scroll" href="#header">
           React Page

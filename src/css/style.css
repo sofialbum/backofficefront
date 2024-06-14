@@ -87,6 +87,7 @@ hr {
   color: #333;
   text-transform: uppercase;
 }
+
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
@@ -96,7 +97,9 @@ hr {
   padding: 8px 2px;
   border-radius: 0;
   margin: 9px 20px 0;
+  position: relative; /* Añadido */
 }
+
 #menu.navbar-default .navbar-nav > li > a:after {
   display: block;
   position: absolute;
@@ -108,8 +111,11 @@ hr {
   content: "";
   transition: width 0.2s;
 }
+
+
 #menu.navbar-default .navbar-nav > li > a:hover:after {
   width: 100%;
+  left: 0;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -121,14 +127,16 @@ hr {
 .navbar-default .navbar-nav > .active > a:focus:after {
   display: block !important;
   position: absolute !important;
-  left: 0 !important;
+  left: 0% !important;
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
   content: "" !important;
-  transition: width 0.2s !important;
+  transition: width 0.2s;
+  
 }
+
 .navbar-toggle {
   border-radius: 0;
 }
