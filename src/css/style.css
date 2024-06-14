@@ -75,7 +75,7 @@ hr {
   padding: 15px;
   transition: all 0.8s;
 }
-#menu.navbar-default {
+#menu .navbar-default {
   background-color: #fff;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
@@ -162,7 +162,7 @@ hr {
 .section-title p {
   font-size: 18px;
 }
-.btn-custom {
+.button-custom {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
@@ -178,29 +178,29 @@ hr {
   border: 0;
   text-decoration: none;
 }
-.btn-custom:hover,
-.btn-custom:focus,
-.btn-custom.focus,
-.btn-custom:active,
-.btn-custom.active {
+.button-custom:hover,
+.button-custom:focus,
+.button-custom.focus,
+.button-custom:active,
+.button-custom.active {
   color: #fff;
   background-image: none;
   background-color: #6372ff;
 }
-.btn:active,
-.btn.active {
+.button:active,
+.button.active {
   background-image: none;
   outline: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 a:focus,
-.btn:focus,
-.btn:active:focus,
-.btn.active:focus,
-.btn.focus,
-.btn:active.focus,
-.btn.active.focus {
+.button:focus,
+.button:active:focus,
+.button.active:focus,
+.button.focus,
+.button:active.focus,
+.button.active.focus {
   outline: none;
   outline-offset: none;
 }
@@ -247,20 +247,56 @@ header .intro-text {
 }
 /* Body Section */
 #body {
+  padding: 100px 0 40px;
+  background: #f6f6f6;
+  margin-top: -10px;
+}
+
+#body .section-title{
+  margin-bottom: -20px;
+}
+
+#bodychild {
   background: #f6f6f6;
 }
-#body i.fa {
+
+#bodychild i.fa {
   font-size: 38px;
   margin-bottom: 20px;
+  margin-top: 20px;
   transition: all 0.5s;
   color: #fff;
   width: 100px;
   height: 100px;
-  padding: 30px 0;
+  padding: 20px 0;
   border-radius: 50%;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+  display:inline-block;
 }
+
+#bodychild2 {
+  background: #f6f6f6;
+  padding-bottom: 120px;
+}
+
+#bodychild2 i.fa {
+  font-size: 38px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  transition: all 0.5s;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  padding: 20px 0;
+  border-radius: 50%;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+  display:inline-block;
+}
+
+
+
 /* Component 1 Section */
 #component1 {
   padding: 100px 0;
@@ -332,8 +368,8 @@ header .intro-text {
 }
 #component2 i.fa {
   font-size: 42px;
-  width: 120px !important;
-  height: 50px !important;
+  width: 150px;
+  height: 140px;
   padding: 40px 0;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   border-radius: 50%;
@@ -501,12 +537,12 @@ header .intro-text {
   color: #cc0033;
   text-align: left;
 }
-#component5 .btn-custom {
+#component5 .button-custom {
   margin: 30px 0;
   background: transparent;
   border: 2px solid #fff;
 }
-#component5 .btn-custom:hover {
+#component5 .button-custom:hover {
   color: #1f386e;
   background: #fff;
 }

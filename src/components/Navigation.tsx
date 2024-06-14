@@ -1,58 +1,51 @@
 const Navigation = () => {
   return (
-    <nav id="menu" className="navbar navbar-default fixed-top">
+    <nav id="menu" className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div className="container">
-        <div className="navbar-header">
-          <button
-            type="button"
-            className="navbar-toggle collapsed"
-            data-toggle="collapse"
-            data-target="#bs-example-navbar-collapse-1"
-          >
-            {" "}
-            <span className="sr-only">Toggle navigation</span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
-          </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-            Interact
-          </a>{" "}
-        </div>
-
-        <div
-          className="collapse navbar-collapse"
-          id="bs-example-navbar-collapse-1"
+        <a className="navbar-brand page-scroll" href="#header">
+          React Page
+        </a>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-          <ul className="nav navbar-nav navbar-right">
-            <li>
-              <a href="#body" className="page-scroll">
-                Body
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav ms-auto">
+            <li className="nav-item">
+              <a href="#body" className="page-scroll nav-link">
+                BODY
               </a>
             </li>
-            <li>
-              <a href="#compoment1" className="page-scroll">
-              Lorem Ipsum
+            <li className="nav-item">
+              <a href="#component1" className="page-scroll nav-link">
+                LOREM
               </a>
             </li>
-            <li>
-              <a href="#compoment2" className="page-scroll">
-              Sed Gravida
+            <li className="nav-item">
+              <a href="#component2" className="page-scroll nav-link">
+                SED
               </a>
             </li>
-            <li>
-              <a href="#component3" className="page-scroll">
-              Mauris pharetra
+            <li className="nav-item">
+              <a href="#component3" className="page-scroll nav-link">
+                MAURIS
               </a>
             </li>
-            <li>
-              <a href="#component4" className="page-scroll">
-              Aenean Sagittis
+            <li className="nav-item">
+              <a href="#component4" className="page-scroll nav-link">
+                AENEAN
               </a>
             </li>
-            <li>
-              <a href="#component5" className="page-scroll">
-              Duis Varius
+            <li className="nav-item">
+              <a href="#component5" className="page-scroll nav-link">
+                DUIS
               </a>
             </li>
           </ul>

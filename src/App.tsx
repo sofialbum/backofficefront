@@ -2,12 +2,14 @@ import './App.css';
 import Widget from './modules/Widget';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/custom-bootstrap.scss';
+import Navigation from './components/Navigation';
 
 
 
 function App() {
   return (
     <>
+   <Navigation />
    <Widget id={"01"} />
    <Widget id={"02"} />
    <Widget id={"03"} />

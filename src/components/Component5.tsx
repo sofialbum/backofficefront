@@ -53,7 +53,7 @@ const Component5 = ({ title, description }: Props) => {
                   <p className="help-block text-danger"></p>
                 </div>
                 <div id="success"></div>
-                <button type="submit" className="btn btn-custom btn-lg">
+                <button type="submit" className="button-custom page-scroll">
                   Send Message
                 </button>
               </form>
