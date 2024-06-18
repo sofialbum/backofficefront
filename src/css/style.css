@@ -112,7 +112,6 @@ hr {
   transition: width 0.2s;
 }
 
-
 #menu.navbar-default .navbar-nav > li > a:hover:after {
   width: 100%;
   left: 0;
@@ -651,7 +650,7 @@ label {
   display: table;
   width: 60%;
   padding: 0;
-  background: url('error_under_maintenance.png') center center no-repeat;
+  background: url('error_under_maintenance.jpeg') center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
